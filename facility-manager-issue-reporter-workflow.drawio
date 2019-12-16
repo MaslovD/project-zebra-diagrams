@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T19:36:19.694Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="jKMtrq4yj6dXA27N0KLL" version="12.4.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-16T19:39:30.066Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="t-T2s9DtwtK_yvEjiJey" version="12.4.2" type="github" pages="2">
   <diagram name="initial-qr-scan" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1082" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="DeVSRvzYaRO-g4p4eWxv-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-3" source="DeVSRvzYaRO-g4p4eWxv-5" target="77e6c97f196da883-16" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="DeVSRvzYaRO-g4p4eWxv-5" value="Save IssueReport to database with status Scanned" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="DeVSRvzYaRO-g4p4eWxv-5" value="Save IssueReport to database with status &quot;Scanned&quot;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="145" y="250" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="77e6c97f196da883-16" value="IssueReport saved successfully?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
@@ -113,8 +113,14 @@
         <mxCell id="dIX2wPtOe6xpirNcBOyt-2" value="user selected issues he wants to report" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
           <mxGeometry x="80" y="50" width="100" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="LMU1Wc3HhtUOiKvl7d1y-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-1" source="dIX2wPtOe6xpirNcBOyt-3" target="LMU1Wc3HhtUOiKvl7d1y-0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="dIX2wPtOe6xpirNcBOyt-3" value="Clicked &quot;Report&quot; button" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
           <mxGeometry x="80" y="190" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="LMU1Wc3HhtUOiKvl7d1y-0" value="Clicked &quot;Report&quot; button" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
+          <mxGeometry x="80" y="290" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="dIX2wPtOe6xpirNcBOyt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="dIX2wPtOe6xpirNcBOyt-1" source="dIX2wPtOe6xpirNcBOyt-2" target="dIX2wPtOe6xpirNcBOyt-3">
           <mxGeometry relative="1" as="geometry"/>
