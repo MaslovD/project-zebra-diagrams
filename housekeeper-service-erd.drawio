@@ -1,4 +1,4 @@
-<mxfile modified="2019-12-16T18:16:09.766Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="Mjz3NwpwHtdUOh41UO5G" version="12.4.2" type="github" pages="1">
+<mxfile modified="2019-12-16T18:16:30.507Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="qD0RU0EEMgBOiPRa4z9a" version="12.4.2" type="github" pages="1">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1341" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="JtOzIm3BsKS3Hx8_oAA3-19" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;fontStyle=1" parent="JtOzIm3BsKS3Hx8_oAA3-18" vertex="1" connectable="0">
           <mxGeometry width="30" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="JtOzIm3BsKS3Hx8_oAA3-20" value="type_type" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="JtOzIm3BsKS3Hx8_oAA3-17" vertex="1">
+        <mxCell id="JtOzIm3BsKS3Hx8_oAA3-20" value="issue_type" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" parent="JtOzIm3BsKS3Hx8_oAA3-17" vertex="1">
           <mxGeometry y="56" width="160" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="JtOzIm3BsKS3Hx8_oAA3-21" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" parent="JtOzIm3BsKS3Hx8_oAA3-20" vertex="1" connectable="0">
@@ -290,6 +290,9 @@
             <mxPoint x="250" y="331" as="sourcePoint"/>
             <mxPoint x="350" y="231" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uJrtltizbn0Ek0R4FiU8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JtOzIm3BsKS3Hx8_oAA3-20" target="5X7_kChjpuVR2j2wYf5f-21">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
