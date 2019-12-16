@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T19:08:54.073Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="vX3oT_83fcpPrhuuODKO" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-16T19:10:31.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="a2yErJ5XNtD8HhgveiRF" version="12.4.2" type="github" pages="1">
   <diagram name="initial-qr-scan" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1082" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="DeVSRvzYaRO-g4p4eWxv-24" value="Show notification on user&#39;s device" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="80" y="420" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="DeVSRvzYaRO-g4p4eWxv-27" value="show on user&#39;s device types of issue which possible to report" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="77e6c97f196da883-2" vertex="1">
+        <mxCell id="DeVSRvzYaRO-g4p4eWxv-27" value="Show on user&#39;s device types of issue which possible to report" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="80" y="590" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="backend-server" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
