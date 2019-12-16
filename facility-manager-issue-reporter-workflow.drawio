@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T19:31:23.422Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ZQirdaz7ULyTn5eh-XJu" version="12.4.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-16T19:35:36.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="o5oyKmNudH3RUo31VqCH" version="12.4.2" type="github" pages="2">
   <diagram name="initial-qr-scan" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1082" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FFFk1DkdN2clKVcexUUl" name="issue-reporting">
-    <mxGraphModel dx="1298" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="742" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="q5NTqpa2HJexMT-ZdmE1-0"/>
         <mxCell id="q5NTqpa2HJexMT-ZdmE1-1" parent="q5NTqpa2HJexMT-ZdmE1-0"/>
@@ -110,10 +110,10 @@
         <mxCell id="dIX2wPtOe6xpirNcBOyt-1" value="user&#39;s device" style="swimlane;html=1;startSize=20;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-0">
           <mxGeometry y="20" width="300" height="730" as="geometry"/>
         </mxCell>
-        <mxCell id="dIX2wPtOe6xpirNcBOyt-2" value="Scan QR-code" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-2" value="user selected issues he wants to report" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
           <mxGeometry x="80" y="50" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="dIX2wPtOe6xpirNcBOyt-3" value="Extract and call URL (including beacon UUID)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-3" value="Clicked &quot;Report&quot; button" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
           <mxGeometry x="80" y="190" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="dIX2wPtOe6xpirNcBOyt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="dIX2wPtOe6xpirNcBOyt-1" source="dIX2wPtOe6xpirNcBOyt-2" target="dIX2wPtOe6xpirNcBOyt-3">
