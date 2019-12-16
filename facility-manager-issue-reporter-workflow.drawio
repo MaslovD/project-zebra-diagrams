@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T19:10:31.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="a2yErJ5XNtD8HhgveiRF" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-16T19:31:23.422Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ZQirdaz7ULyTn5eh-XJu" version="12.4.2" type="github" pages="2">
   <diagram name="initial-qr-scan" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1082" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -10,10 +10,10 @@
         <mxCell id="77e6c97f196da883-2" value="user&#39;s device" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="300" height="730" as="geometry"/>
         </mxCell>
-        <mxCell id="77e6c97f196da883-8" value="scan QR-code" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
+        <mxCell id="77e6c97f196da883-8" value="Scan QR-code" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="80" y="50" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="77e6c97f196da883-11" value="extract and call URL (including beacon UUID)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
+        <mxCell id="77e6c97f196da883-11" value="Extract and call URL (including beacon UUID)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="80" y="190" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="77e6c97f196da883-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="77e6c97f196da883-2" source="77e6c97f196da883-8" target="77e6c97f196da883-11" edge="1">
@@ -31,19 +31,19 @@
         <mxCell id="DeVSRvzYaRO-g4p4eWxv-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-3" source="77e6c97f196da883-12" target="DeVSRvzYaRO-g4p4eWxv-3" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="77e6c97f196da883-12" value="extract beacon uuid" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="77e6c97f196da883-12" value="Extract beacon uuid" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="145" y="50" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="DeVSRvzYaRO-g4p4eWxv-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-3" source="DeVSRvzYaRO-g4p4eWxv-3" target="DeVSRvzYaRO-g4p4eWxv-5" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="DeVSRvzYaRO-g4p4eWxv-3" value="create IssueReport object (constructor must generate IssueReport UUID)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="DeVSRvzYaRO-g4p4eWxv-3" value="Create IssueReport object (constructor must generate IssueReport UUID)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="145" y="150" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="DeVSRvzYaRO-g4p4eWxv-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-3" source="DeVSRvzYaRO-g4p4eWxv-5" target="77e6c97f196da883-16" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="DeVSRvzYaRO-g4p4eWxv-5" value="save IssueReport to database&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="DeVSRvzYaRO-g4p4eWxv-5" value="Save IssueReport to database&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="145" y="250" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="77e6c97f196da883-16" value="IssueReport saved successfully?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
@@ -60,7 +60,7 @@
         <mxCell id="DeVSRvzYaRO-g4p4eWxv-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" parent="77e6c97f196da883-3" source="DeVSRvzYaRO-g4p4eWxv-14" target="DeVSRvzYaRO-g4p4eWxv-26" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="DeVSRvzYaRO-g4p4eWxv-14" value="get Beacon settings&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="DeVSRvzYaRO-g4p4eWxv-14" value="Get Beacon settings&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="145" y="500" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="DeVSRvzYaRO-g4p4eWxv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-3" source="77e6c97f196da883-16" target="DeVSRvzYaRO-g4p4eWxv-14" edge="1">
@@ -68,7 +68,7 @@
             <mxPoint x="110" y="502.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DeVSRvzYaRO-g4p4eWxv-26" value="prepare response (200)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="DeVSRvzYaRO-g4p4eWxv-26" value="Prepare response (200)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="142.5" y="590" width="105" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="database-server" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
@@ -94,6 +94,106 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="DeVSRvzYaRO-g4p4eWxv-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-1" source="DeVSRvzYaRO-g4p4eWxv-26" target="DeVSRvzYaRO-g4p4eWxv-27" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FFFk1DkdN2clKVcexUUl" name="issue-reporting">
+    <mxGraphModel dx="1298" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="q5NTqpa2HJexMT-ZdmE1-0"/>
+        <mxCell id="q5NTqpa2HJexMT-ZdmE1-1" parent="q5NTqpa2HJexMT-ZdmE1-0"/>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-0" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="q5NTqpa2HJexMT-ZdmE1-1">
+          <mxGeometry x="70" y="40" width="850" height="750" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-1" value="user&#39;s device" style="swimlane;html=1;startSize=20;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-0">
+          <mxGeometry y="20" width="300" height="730" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-2" value="Scan QR-code" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
+          <mxGeometry x="80" y="50" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-3" value="Extract and call URL (including beacon UUID)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
+          <mxGeometry x="80" y="190" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="dIX2wPtOe6xpirNcBOyt-1" source="dIX2wPtOe6xpirNcBOyt-2" target="dIX2wPtOe6xpirNcBOyt-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-5" value="Show notification on user&#39;s device" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
+          <mxGeometry x="80" y="420" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-6" value="Show on user&#39;s device types of issue which possible to report" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-1">
+          <mxGeometry x="80" y="590" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-7" value="backend-server" style="swimlane;html=1;startSize=20;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-0">
+          <mxGeometry x="300" y="20" width="290" height="730" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-7" source="dIX2wPtOe6xpirNcBOyt-9" target="dIX2wPtOe6xpirNcBOyt-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-9" value="Extract beacon uuid" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-7">
+          <mxGeometry x="145" y="50" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-7" source="dIX2wPtOe6xpirNcBOyt-11" target="dIX2wPtOe6xpirNcBOyt-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-11" value="Create IssueReport object (constructor must generate IssueReport UUID)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-7">
+          <mxGeometry x="145" y="150" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-7" source="dIX2wPtOe6xpirNcBOyt-13" target="dIX2wPtOe6xpirNcBOyt-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-13" value="Save IssueReport to database&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-7">
+          <mxGeometry x="145" y="250" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-14" value="IssueReport saved successfully?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-7">
+          <mxGeometry x="140" y="350" width="110" height="82.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-15" value="&amp;nbsp;Response (500)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-7">
+          <mxGeometry x="30" y="420" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-7" source="dIX2wPtOe6xpirNcBOyt-14" target="dIX2wPtOe6xpirNcBOyt-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="381.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-7" source="dIX2wPtOe6xpirNcBOyt-18" target="dIX2wPtOe6xpirNcBOyt-20">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-18" value="Get Beacon settings&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-7">
+          <mxGeometry x="145" y="500" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-7" source="dIX2wPtOe6xpirNcBOyt-14" target="dIX2wPtOe6xpirNcBOyt-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="502.5" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-20" value="Prepare response (200)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-7">
+          <mxGeometry x="142.5" y="590" width="105" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-21" value="database-server" style="swimlane;html=1;startSize=20;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-0">
+          <mxGeometry x="590" y="20" width="260" height="730" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-22" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-21">
+          <mxGeometry x="110" y="80" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-0" source="dIX2wPtOe6xpirNcBOyt-3" target="dIX2wPtOe6xpirNcBOyt-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="240"/>
+              <mxPoint x="220" y="100"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-0" source="dIX2wPtOe6xpirNcBOyt-13" target="dIX2wPtOe6xpirNcBOyt-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-0" source="dIX2wPtOe6xpirNcBOyt-15" target="dIX2wPtOe6xpirNcBOyt-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-0" source="dIX2wPtOe6xpirNcBOyt-20" target="dIX2wPtOe6xpirNcBOyt-6">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
