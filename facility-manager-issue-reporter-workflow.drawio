@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T19:52:23.409Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="t5UKrQ5GSmZmL9bxdNss" version="12.4.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-16T20:06:36.977Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="edJzuYtQm68hi6Iyd_Zd" version="12.4.2" type="github" pages="2">
   <diagram name="initial-qr-scan" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1082" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -100,12 +100,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FFFk1DkdN2clKVcexUUl" name="issue-reporting">
-    <mxGraphModel dx="885" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="q5NTqpa2HJexMT-ZdmE1-0"/>
         <mxCell id="q5NTqpa2HJexMT-ZdmE1-1" parent="q5NTqpa2HJexMT-ZdmE1-0"/>
         <mxCell id="dIX2wPtOe6xpirNcBOyt-0" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="q5NTqpa2HJexMT-ZdmE1-1">
-          <mxGeometry x="70" y="40" width="1110" height="750" as="geometry"/>
+          <mxGeometry x="70" y="40" width="1630" height="750" as="geometry"/>
         </mxCell>
         <mxCell id="dIX2wPtOe6xpirNcBOyt-1" value="user&#39;s device" style="swimlane;html=1;startSize=20;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-0">
           <mxGeometry y="20" width="300" height="730" as="geometry"/>
@@ -168,7 +168,7 @@
             <mxPoint x="110" y="502.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dIX2wPtOe6xpirNcBOyt-20" value="Send&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34;&quot;&gt;Issue Report Card DTO to&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-7">
+        <mxCell id="dIX2wPtOe6xpirNcBOyt-20" value="&lt;font style=&quot;font-size: 8px&quot;&gt;Send&amp;nbsp;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34;&quot;&gt;Issue Report Card DTO to&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; , sans-serif&quot;&gt;&lt;b&gt;projectzebra-issue-publisher-trello.queue&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-7">
           <mxGeometry x="92.5" y="640" width="105" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="dIX2wPtOe6xpirNcBOyt-21" value="database-server" style="swimlane;html=1;startSize=20;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-0">
@@ -195,13 +195,74 @@
         <mxCell id="dIX2wPtOe6xpirNcBOyt-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-0" source="dIX2wPtOe6xpirNcBOyt-15" target="dIX2wPtOe6xpirNcBOyt-5">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="dIX2wPtOe6xpirNcBOyt-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-0" source="dIX2wPtOe6xpirNcBOyt-20" target="dIX2wPtOe6xpirNcBOyt-6">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="MsBq6DECPv4BFNKNEiou-2" value="trello" style="swimlane;html=1;startSize=20;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-0">
+        <mxCell id="MsBq6DECPv4BFNKNEiou-2" value="rabbitMQ" style="swimlane;html=1;startSize=20;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-0">
           <mxGeometry x="850" y="20" width="260" height="730" as="geometry">
             <mxRectangle x="590" y="20" width="30" height="730" as="alternateBounds"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-12" value="&lt;b style=&quot;font-family: &amp;#34;verdana&amp;#34; , sans-serif ; font-size: 8px ; white-space: normal&quot;&gt;projectzebra-issue-publisher-trello.queue&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#333333;gradientColor=none;" vertex="1" parent="MsBq6DECPv4BFNKNEiou-2">
+          <mxGeometry x="54.25" y="44.5" width="151.5" height="45.5" as="geometry"/>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-0" source="dIX2wPtOe6xpirNcBOyt-20" target="MsBq6DECPv4BFNKNEiou-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="690"/>
+              <mxPoint x="880" y="87"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-10" value="issue-publisher" style="swimlane;html=1;startSize=20;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-0">
+          <mxGeometry x="1110" y="20" width="260" height="730" as="geometry">
+            <mxRectangle x="590" y="20" width="30" height="730" as="alternateBounds"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-19" value="Get Issue Report Message from queue" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="MsBq6DECPv4BFNKNEiou-10">
+          <mxGeometry x="70" y="37.25" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-23" value="Call Trello API method to send Issue Report Card" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="MsBq6DECPv4BFNKNEiou-10">
+          <mxGeometry x="70" y="230" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MsBq6DECPv4BFNKNEiou-10" source="MsBq6DECPv4BFNKNEiou-19" target="MsBq6DECPv4BFNKNEiou-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MsBq6DECPv4BFNKNEiou-10" source="MsBq6DECPv4BFNKNEiou-24" target="MsBq6DECPv4BFNKNEiou-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-24" value="Extract and transform Isssue Report data" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;direction=south;" vertex="1" parent="MsBq6DECPv4BFNKNEiou-10">
+          <mxGeometry x="70" y="140" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="MsBq6DECPv4BFNKNEiou-10" source="MsBq6DECPv4BFNKNEiou-24" target="MsBq6DECPv4BFNKNEiou-24">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-15" value="trello API" style="swimlane;html=1;startSize=20;" vertex="1" parent="dIX2wPtOe6xpirNcBOyt-0">
+          <mxGeometry x="1370" y="20" width="260" height="730" as="geometry">
+            <mxRectangle x="590" y="20" width="30" height="730" as="alternateBounds"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-6" value="Create Card Method" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="MsBq6DECPv4BFNKNEiou-15">
+          <mxGeometry x="70" y="70" width="105" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-31" value="Create Card Method" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="MsBq6DECPv4BFNKNEiou-15">
+          <mxGeometry x="70" y="310" width="105" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-0" source="MsBq6DECPv4BFNKNEiou-12" target="MsBq6DECPv4BFNKNEiou-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1141.5" y="317.25" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-0" source="MsBq6DECPv4BFNKNEiou-23" target="MsBq6DECPv4BFNKNEiou-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="275" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1410" y="275"/>
+              <mxPoint x="1410" y="120"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#333333;" vertex="1" parent="q5NTqpa2HJexMT-ZdmE1-1">
+          <mxGeometry x="480" y="810" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
