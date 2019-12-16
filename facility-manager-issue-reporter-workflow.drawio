@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T20:06:36.977Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="edJzuYtQm68hi6Iyd_Zd" version="12.4.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-16T20:08:12.840Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="F3PJG1SgtNRchx1v4uSL" version="12.4.2" type="github" pages="2">
   <diagram name="initial-qr-scan" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1082" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -244,8 +244,11 @@
         <mxCell id="MsBq6DECPv4BFNKNEiou-6" value="Create Card Method" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="MsBq6DECPv4BFNKNEiou-15">
           <mxGeometry x="70" y="70" width="105" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="MsBq6DECPv4BFNKNEiou-31" value="Create Card Method" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="MsBq6DECPv4BFNKNEiou-15">
+        <mxCell id="MsBq6DECPv4BFNKNEiou-31" value="Web-hook" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="MsBq6DECPv4BFNKNEiou-15">
           <mxGeometry x="70" y="310" width="105" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="MsBq6DECPv4BFNKNEiou-32" value="Will be implemented soon" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="MsBq6DECPv4BFNKNEiou-15">
+          <mxGeometry x="47.5" y="370" width="150" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="MsBq6DECPv4BFNKNEiou-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dIX2wPtOe6xpirNcBOyt-0" source="MsBq6DECPv4BFNKNEiou-12" target="MsBq6DECPv4BFNKNEiou-19">
           <mxGeometry relative="1" as="geometry">
